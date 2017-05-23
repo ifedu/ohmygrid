@@ -19,16 +19,12 @@
     - justify-content: center;
 - J-E
     - justify-content: flex-end;
-
 - J-E
     - justify-content: flex-start;
-
 - J-SA
     - justify-content: space-around;
-
 - J-SB
     - justify-content: space-between;
-
 - X-G
     - flex-grow: 1;
 
