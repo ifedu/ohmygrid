@@ -1,0 +1,35 @@
+@for $i from 0 to 11 {
+  $num: ($i * 5) + px;
+
+  .P-#{$i}, .PADDING-#{$i} {
+    padding: $num;
+  }
+
+  body {
+    .PT-#{$i}, .PADDING_TOP-#{$i} {
+      padding-top: $num;
+    }
+
+    .PR-#{$i}, .PADDING_RIGHT-#{$i} {
+      padding-right: $num;
+    }
+
+    .PB-#{$i}, .PADDING_BOTTOP-#{$i} {
+      padding-bottom: $num;
+    }
+
+    .PL-#{$i}, .PADDING_LEFT-#{$i} {
+      padding-left: $num;
+    }
+
+    .PX-#{$i}, .PADDING_X-#{$i} {
+      padding-left: $num;
+      padding-right: $num;
+    }
+
+    .PY-#{$i}, .PADDING_Y-#{$i} {
+      padding-bottom: $num;
+      padding-top: $num;
+    }
+  }
+}

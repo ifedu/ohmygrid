@@ -1,0 +1,35 @@
+@for $i from 0 to 11 {
+  $num: ($i * 5) + px;
+
+  .M-#{$i} {
+    margin: $num;
+  }
+
+  body {
+    .MT-#{$i} {
+      margin-top: $num;
+    }
+
+    .MR-#{$i} {
+      margin-right: $num;
+    }
+
+    .MB-#{$i} {
+      margin-bottom: $num;
+    }
+
+    .ML-#{$i} {
+      margin-left: $num;
+    }
+
+    .MX-#{$i} {
+      margin-left: $num;
+      margin-right: $num;
+    }
+
+    .MY-#{$i} {
+      margin-bottom: $num;
+      margin-top: $num;
+    }
+  }
+}

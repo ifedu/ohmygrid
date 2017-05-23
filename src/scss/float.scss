@@ -1,0 +1,13 @@
+.F-L {
+  float: left;
+}
+
+.F-R {
+  float: right;
+}
+
+.FIX::after {
+    content: '';
+    clear: both;
+    display: block;
+}

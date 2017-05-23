@@ -1,0 +1,23 @@
+{
+    "description": "classes CSS for position components of ScSS",
+    "homepage": "https://github.com/ifedu/ohmygrid",
+    "name": "ohmygrid",
+    "version": "0.1.1",
+
+    "keywords": [
+        "grid",
+        "css",
+        "scss"
+    ],
+
+    "author": {
+        "name": "Eduardo Pérez-Bermejo",
+        "email": "ifedu@outlook.com",
+        "url": "http://www.github.com/ifedu/ohmygrid"
+    },
+
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ifedu/ohmygrid"
+    }
+}
