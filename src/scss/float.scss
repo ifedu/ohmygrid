@@ -1,13 +1,15 @@
-.F-L {
-  float: left;
-}
+.omg-float {
+    &.F-L {
+        float: left;
+    }
 
-.F-R {
-  float: right;
-}
+    &.F-R {
+        float: right;
+    }
 
-.FIX::after {
-    content: '';
-    clear: both;
-    display: block;
+    &.FIX::after {
+        content: '';
+        clear: both;
+        display: block;
+    }
 }

@@ -1,23 +1,25 @@
-.J-C {
-  justify-content: center;
-}
+.omg-flex {
+    &.J-C {
+        justify-content: center;
+    }
 
-.J-E {
-  justify-content: flex-end;
-}
+    &.J-E {
+        justify-content: flex-end;
+    }
 
-.J-S {
-  justify-content: flex-start;
-}
+    &.J-S {
+        justify-content: flex-start;
+    }
 
-.J-SA {
-  justify-content: space-around;
-}
+    &.J-SA {
+        justify-content: space-around;
+    }
 
-.J-SB {
-  justify-content: space-between;
-}
+    &.J-SB {
+        justify-content: space-between;
+    }
 
-.X-G {
-  flex-grow: 1;
+    &.F-G {
+        flex-grow: 1;
+    }
 }

@@ -1,15 +1,17 @@
-.D-B {
-    display: block;
-}
+.omg-display {
+    &.D-B {
+        display: block;
+    }
 
-.D-F {
-    display: flex;
-}
+    &.D-F {
+        display: flex;
+    }
 
-.D-I {
-    display: inline;
-}
+    &.D-I {
+        display: inline;
+    }
 
-.D-N {
-    display: none;
+    &.D-N {
+        display: none;
+    }
 }

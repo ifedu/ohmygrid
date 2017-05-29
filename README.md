@@ -1,10 +1,10 @@
-### v.0.1.0
+### v.0.2.0
 
 ### Changelog
 - [English](https://github.com/ifedu/ohmygrid/blob/master/docs/CHANGELOG/EN_US.md)
 - [Spanish](https://github.com/ifedu/ohmygrid/blob/master/docs/CHANGELOG/ES.md)
 
-### display
+### omg-display
 - D-B
     - display: block;
 - D-F
@@ -14,7 +14,7 @@
 - D-N
     - display: none;
 
-### flex
+### omg-flex
 - J-C
     - justify-content: center;
 - J-E
@@ -25,10 +25,10 @@
     - justify-content: space-around;
 - J-SB
     - justify-content: space-between;
-- X-G
+- F-G
     - flex-grow: 1;
 
-### float
+### omg-float
 - F-L
     - float: left;
 - F-R
@@ -38,7 +38,7 @@
     - clear: both;
     - display: block;
 
-### grid
+### omg-grid
 - R
     - display: flex;
     - flex-wrap: wrap;
@@ -79,7 +79,7 @@
     - flex: 0 0 100%;
     - max-width: 100%;
 
-### margin
+### omg-margin
 - *[1 to 10] [5px to 50px]*
 - M-1
     - margin: 5px;
@@ -98,7 +98,7 @@
     - margin-bottom: 5px;
     - margin-top: 5px;
 
-### padding
+### omg-padding
 - *[1 to 10] [5px to 50px]*
 - P-1
     - padding: 5px;
@@ -117,7 +117,7 @@
     - padding-bottom: 5px;
     - padding-top: 5px;
 
-### size
+### omg-size
 - H
     - height: 100%;
 - W
