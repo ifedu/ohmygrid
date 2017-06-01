@@ -1,16 +1,2 @@
-.omg-grid {
-    &.R {
-        flex-wrap: wrap;
-
-        display: flex;
-    }
-
-    @for $i from 1 to 13 {
-        $num: (100/12 * $i);
-
-        &.C-#{$i} {
-            flex: 0 0 ($num + %);
-            max-width: ($num + %);
-        }
-    }
+.omg {
 }

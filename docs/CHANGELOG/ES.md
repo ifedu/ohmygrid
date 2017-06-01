@@ -1,3 +1,9 @@
+### v.0.3.0
+    - añade propiedades en flex
+    - clases requieren clase omg
+    - elimina grid
+    - propiedades ahora son completas en minúsculas
+
 ### v.0.2.0
     - clases requieren omg-X
 

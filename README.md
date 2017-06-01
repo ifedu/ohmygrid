@@ -1,124 +1,134 @@
-### v.0.2.0
+### v.0.3.0
 
 ### Changelog
 - [English](https://github.com/ifedu/ohmygrid/blob/master/docs/CHANGELOG/EN_US.md)
 - [Spanish](https://github.com/ifedu/ohmygrid/blob/master/docs/CHANGELOG/ES.md)
 
-### omg-display
-- D-B
+### example
+- <div class='omg display-F justify-C'></div>
+
+### display
+- display-B
     - display: block;
-- D-F
+- display-F
     - display: flex;
-- D-I
+- display-I
     - display: inline;
-- D-N
+- display-N
     - display: none;
 
-### omg-flex
-- J-C
-    - justify-content: center;
-- J-E
-    - justify-content: flex-end;
-- J-E
-    - justify-content: flex-start;
-- J-SA
-    - justify-content: space-around;
-- J-SB
-    - justify-content: space-between;
-- F-G
+### flex
+- align-C
+    - align-items: center;
+- align-FE
+    - align-items: flex-end;
+- align-FS
+    - align-items: flex-start;
+- flex-10
+    - flex: 0 0 10%;
+    - max-width: 10%;
+- flex-12.5
+    - flex: 0 0 12.5%;
+    - max-width: 12.5%;
+- flex-20
+    - flex: 0 0 20%;
+    - max-width: 20%;
+- flex-25
+    - flex: 0 0 25%;
+    - max-width: 25%;
+- flex-30
+    - flex: 0 0 30%;
+    - max-width: 30%;
+- flex-33
+    - flex: 0 0 33.33333%;
+    - max-width: 33.33333%;
+- flex-40
+    - flex: 0 0 40%;
+    - max-width: 40%;
+- flex-50
+    - flex: 0 0 50%;
+    - max-width: 50%;
+- flex-60
+    - flex: 0 0 60%;
+    - max-width: 60%;
+- flex-66
+    - flex: 0 0 66.66666%;
+    - max-width: 66.66666%;
+- flex-70
+    - flex: 0 0 70%;
+    - max-width: 70%;
+- flex-75
+    - flex: 0 0 75%;
+    - max-width: 75%;
+- flex-80
+    - flex: 0 0 80%;
+    - max-width: 80%;
+- flex-90
+    - flex: 0 0 90%;
+    - max-width: 90%;
+- flex-G
     - flex-grow: 1;
+- justify-C
+    - justify-content: center;
+- justify-E
+    - justify-content: flex-end;
+- justify-E
+    - justify-content: flex-start;
+- justify-SA
+    - justify-content: space-around;
+- justify-SB
+    - justify-content: space-between;
 
-### omg-float
-- F-L
+### float
+- float-L
     - float: left;
-- F-R
+- float-R
     - float: right;
-- FIX::after
+- float-FIX::after
     - content: '';
     - clear: both;
     - display: block;
 
-### omg-grid
-- R
-    - display: flex;
-    - flex-wrap: wrap;
-- C-1
-    - flex: 0 0 8.33%;
-    - max-width: 8.33%;
-- C-2
-    - flex: 0 0 16.66%;
-    - max-width: 16.66%;
-- C-3
-    - flex: 0 0 25%;
-    - max-width: 25%;
-- C-4
-    - flex: 0 0 33.33%;
-    - max-width: 33.33%;
-- C-5
-    - flex: 0 0 41.66%;
-    - max-width: 41.66%;
-- C-6
-    - flex: 0 0 50%;
-    - max-width: 50%;
-- C-7
-    - flex: 0 0 58.33%;
-    - max-width: 58.33%;
-- C-8
-    - flex: 0 0 66.66%;
-    - max-width: 66.66%;
-- C-9
-    - flex: 0 0 75%;
-    - max-width: 75%;
-- C-10
-    - flex: 0 0 83.33%;
-    - max-width: 83.33%;
-- C-11
-    - flex: 0 0 91.66%;
-    - max-width: 91.66%;
-- C-12
-    - flex: 0 0 100%;
-    - max-width: 100%;
-
-### omg-margin
+### margin
 - *[1 to 10] [5px to 50px]*
-- M-1
+- margin-1
     - margin: 5px;
-- MT-1
+- margin-T-1
     - margin-top: 5px;
-- MR-1
+- margin-R-1
     - margin-right: 5px;
-- MB-1
+- margin-B-1
     - margin-bottom: 5px;
-- ML-1
+- margin-L-1
     - margin-left: 5px;
-- MX-1
+- margin-X-1
     - margin-left: 5px;
     - margin-right: 5px;
-- MY-1
+- margin-Y-1
     - margin-bottom: 5px;
     - margin-top: 5px;
 
-### omg-padding
+### padding
 - *[1 to 10] [5px to 50px]*
-- P-1
+- padding-1
     - padding: 5px;
-- PT-1
+- padding-T-1
     - padding-top: 5px;
-- PR-1
+- padding-R-1
     - padding-right: 5px;
-- PB-1
+- padding-B-1
     - padding-bottom: 5px;
-- PL-1
+- padding-L-1
     - padding-left: 5px;
-- PX-1
+- padding-X-1
     - padding-left: 5px;
     - padding-right: 5px;
-- PY-1
+- padding-Y-1
     - padding-bottom: 5px;
     - padding-top: 5px;
 
-### omg-size
-- H
+### size
+- size-H
     - height: 100%;
-- W
+- size-W
     - width: 100%;

@@ -1,3 +1,9 @@
+### v.0.3.0
+    - add properties in flex
+    - classes require class omg
+    - delete grid
+    - properties are now full in lowercase
+
 ### v.0.2.0
     - classes require omg-X
 
