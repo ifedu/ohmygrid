@@ -1,4 +1,4 @@
-### v.0.3.0
+### v.0.3.1
 
 ### Changelog
 - [English](https://github.com/ifedu/ohmygrid/blob/master/docs/CHANGELOG/EN_US.md)
@@ -66,8 +66,15 @@
 - flex-90
     - flex: 0 0 90%;
     - max-width: 90%;
+- flex-100
+    - flex: 0 0 100%;
+    - max-width: 100%;
 - flex-G
     - flex-grow: 1;
+- flex-W
+    - flex-grow: wrap;
+- flex-WR
+    - flex-grow: wrap-reverse;
 - justify-C
     - justify-content: center;
 - justify-E

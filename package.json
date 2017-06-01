@@ -2,7 +2,7 @@
     "description": "classes CSS for position components of ScSS",
     "homepage": "https://github.com/ifedu/ohmygrid",
     "name": "ohmygrid",
-    "version": "0.3.0",
+    "version": "0.3.1",
 
     "keywords": [
         "grid",

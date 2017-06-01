@@ -1,3 +1,7 @@
+### v.0.3.1
+    - añade flex-100
+    - añade flex-W
+
 ### v.0.3.0
     - añade propiedades en flex
     - clases requieren clase omg
