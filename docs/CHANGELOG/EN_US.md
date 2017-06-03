@@ -1,3 +1,6 @@
+### v.0.3.2
+    - Fix: example
+
 ### v.0.3.1
     - add flex-100
     - add flex-W

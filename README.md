@@ -1,11 +1,13 @@
-### v.0.3.1
+### v.0.3.2
 
 ### Changelog
 - [English](https://github.com/ifedu/ohmygrid/blob/master/docs/CHANGELOG/EN_US.md)
 - [Spanish](https://github.com/ifedu/ohmygrid/blob/master/docs/CHANGELOG/ES.md)
 
 ### example
-- <div class='omg display-F justify-C'></div>
+``` html
+    <div class='omg display-F justify-C'></div>
+```
 
 ### display
 - display-B
