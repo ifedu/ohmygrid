@@ -1,4 +1,4 @@
-### v.0.3.2
+### v.0.3.3
 
 ### Changelog
 - [English](https://github.com/ifedu/ohmygrid/blob/master/docs/CHANGELOG/EN_US.md)
@@ -77,11 +77,11 @@
     - flex-grow: wrap;
 - flex-WR
     - flex-grow: wrap-reverse;
-- justify-C
+- justify-FC
     - justify-content: center;
-- justify-E
+- justify-FE
     - justify-content: flex-end;
-- justify-E
+- justify-S
     - justify-content: flex-start;
 - justify-SA
     - justify-content: space-around;
