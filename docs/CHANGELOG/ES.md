@@ -1,3 +1,6 @@
+### v.0.4.0
+    - Nombres más descriptivos sin mayúsculas
+    
 ### v.0.3.2
     - Corrige: ejemplo
 

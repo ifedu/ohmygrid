@@ -6,28 +6,28 @@
             margin: $num;
         }
 
-        &.margin-T-#{$i} {
+        &.margin-top-#{$i} {
             margin-top: $num;
         }
 
-        &.margin-R-#{$i} {
+        &.margin-right-#{$i} {
             margin-right: $num;
         }
 
-        &.margin-B-#{$i} {
+        &.margin-bottom-#{$i} {
             margin-bottom: $num;
         }
 
-        &.margin-L-#{$i} {
+        &.margin-left-#{$i} {
             margin-left: $num;
         }
 
-        &.margin-X-#{$i} {
+        &.margin-x-#{$i} {
             margin-left: $num;
             margin-right: $num;
         }
 
-        &.margin-Y-#{$i} {
+        &.margin-y-#{$i} {
             margin-bottom: $num;
             margin-top: $num;
         }

@@ -1,30 +1,35 @@
-### v.0.3.3
+### v.0.4.0
 
 ### Changelog
 - [English](https://github.com/ifedu/ohmygrid/blob/master/docs/CHANGELOG/EN_US.md)
 - [Spanish](https://github.com/ifedu/ohmygrid/blob/master/docs/CHANGELOG/ES.md)
 
+### install
+- npm i ohmygrid -S
+- scss
+    - @import "~ohmygrid/src/scss/index"
+
 ### example
 ``` html
-    <div class='omg display-F justify-C'></div>
+    <div class='omg display-flex justify-center'></div>
 ```
 
 ### display
-- display-B
+- display-block
     - display: block;
-- display-F
+- display-flex
     - display: flex;
-- display-I
+- display-inline
     - display: inline;
-- display-N
+- display-none
     - display: none;
 
 ### flex
-- align-C
+- align-center
     - align-items: center;
-- align-FE
+- align-end
     - align-items: flex-end;
-- align-FS
+- align-start
     - align-items: flex-start;
 - flex-10
     - flex: 0 0 10%;
@@ -71,29 +76,29 @@
 - flex-100
     - flex: 0 0 100%;
     - max-width: 100%;
-- flex-G
+- flex-grow
     - flex-grow: 1;
-- flex-W
+- flex-wrap
     - flex-grow: wrap;
-- flex-WR
+- flex-wrap-reverse
     - flex-grow: wrap-reverse;
-- justify-FC
-    - justify-content: center;
-- justify-FE
-    - justify-content: flex-end;
-- justify-S
-    - justify-content: flex-start;
-- justify-SA
+- justify-around
     - justify-content: space-around;
-- justify-SB
+- justify-between
     - justify-content: space-between;
+- justify-center
+    - justify-content: center;
+- justify-end
+    - justify-content: flex-end;
+- justify-start
+    - justify-content: flex-start;
 
 ### float
-- float-L
+- float-left
     - float: left;
-- float-R
+- float-right
     - float: right;
-- float-FIX::after
+- float-fix::after
     - content: '';
     - clear: both;
     - display: block;
@@ -102,18 +107,18 @@
 - *[1 to 10] [5px to 50px]*
 - margin-1
     - margin: 5px;
-- margin-T-1
+- margin-top-1
     - margin-top: 5px;
-- margin-R-1
+- margin-right-1
     - margin-right: 5px;
-- margin-B-1
+- margin-bottom-1
     - margin-bottom: 5px;
-- margin-L-1
+- margin-left-1
     - margin-left: 5px;
-- margin-X-1
+- margin-x-1
     - margin-left: 5px;
     - margin-right: 5px;
-- margin-Y-1
+- margin-y-1
     - margin-bottom: 5px;
     - margin-top: 5px;
 
@@ -121,23 +126,23 @@
 - *[1 to 10] [5px to 50px]*
 - padding-1
     - padding: 5px;
-- padding-T-1
+- padding-top-1
     - padding-top: 5px;
-- padding-R-1
+- padding-right-1
     - padding-right: 5px;
-- padding-B-1
+- padding-bottom-1
     - padding-bottom: 5px;
-- padding-L-1
+- padding-left-1
     - padding-left: 5px;
-- padding-X-1
+- padding-x-1
     - padding-left: 5px;
     - padding-right: 5px;
-- padding-Y-1
+- padding-y-1
     - padding-bottom: 5px;
     - padding-top: 5px;
 
 ### size
-- size-H
+- size-height
     - height: 100%;
-- size-W
+- size-width
     - width: 100%;

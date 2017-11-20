@@ -1,13 +1,13 @@
 .omg {
-    &.float-L {
+    &.float-left {
         float: left;
     }
 
-    &.float-R {
+    &.float-right {
         float: right;
     }
 
-    &.float-FIX::after {
+    &.float-fix::after {
         content: '';
         clear: both;
         display: block;

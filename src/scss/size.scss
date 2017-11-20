@@ -1,9 +1,14 @@
 .omg {
-    &.size-H {
-      height: 100%;
+    &.size {
+        height: 100%;
+        width: 100%;
     }
 
-    &.size-W {
-      width: 100%;
+    &.size-height {
+        height: 100%;
+    }
+
+    &.size-width {
+        width: 100%;
     }
 }

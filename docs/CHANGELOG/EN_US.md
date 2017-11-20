@@ -1,3 +1,6 @@
+### v.0.4.0
+    - More descriptive names without uppercase letters
+    
 ### v.0.3.2
     - Fix: example
 

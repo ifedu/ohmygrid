@@ -6,28 +6,28 @@
             padding: $num;
         }
 
-        &.padding-T-#{$i} {
+        &.padding-top-#{$i} {
             padding-top: $num;
         }
 
-        &.padding-R-#{$i} {
+        &.padding-right-#{$i} {
             padding-right: $num;
         }
 
-        &.padding-B-#{$i} {
+        &.padding-bottom-#{$i} {
             padding-bottom: $num;
         }
 
-        &.padding-L-#{$i} {
+        &.padding-left-#{$i} {
             padding-left: $num;
         }
 
-        &.padding-X-#{$i} {
+        &.padding-x-#{$i} {
             padding-left: $num;
             padding-right: $num;
         }
 
-        &.padding-Y-#{$i} {
+        &.padding-y-#{$i} {
             padding-bottom: $num;
             padding-top: $num;
         }
